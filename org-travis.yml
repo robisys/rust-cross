@@ -1,0 +1,25 @@
+language: generic
+
+dist: trusty
+
+sudo: required
+
+env:
+  - RUST_CHANNEL=stable
+  - RUST_CHANNEL=beta
+  - RUST_CHANNEL=nightly
+
+before_install:
+  - export PATH="$PATH:~/multirust/bin"
+
+install:
+  - ci/install.sh
+
+script:
+  - ci/script.sh
+
+branches:
+  only: master
+
+notifications:
+  email: false
