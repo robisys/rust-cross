@@ -1,7 +1,7 @@
 [![travis-badge][]][travis]
 
-[travis-badge]: https://img.shields.io/travis/japaric/rust-cross/master.svg?style=flat-square
-[travis]: https://travis-ci.org/japaric/rust-cross
+[travis-badge]: https://img.shields.io/travis/robisys/rust-cross/master.svg?style=flat-square
+[travis]: https://travis-ci.org/robisys/rust-cross
 
 # `rust-cross`
 
